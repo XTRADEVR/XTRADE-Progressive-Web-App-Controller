@@ -1,7 +1,7 @@
 {
   "name": "XTRADE Commerce PWA",
   "short_name": "XTRADE",
-  "description": "Platform Belanja Modern, Cepat dan Andal Berbasis PWA",
+  "description": "Platform Belanja Modern, Cepat & Premium - XTRADE STORE",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -10,16 +10,22 @@
   "theme_color": "#4F46E5",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='42' fill='%234F46E5'/><path d='M50 50L96 96L50 142M96 96L142 50M96 96L142 142' stroke='white' stroke-width='18' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "src": "./icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%234F46E5'/><path d='M134 134L256 256L134 378M256 256L378 134M256 256L378 378' stroke='white' stroke-width='48' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "categories": ["shopping", "productivity"]
