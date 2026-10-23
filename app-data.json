@@ -1,0 +1,114 @@
+{
+  "i18n": {
+    "id": {
+      "greeting": "Selamat Datang,",
+      "searchPlaceholder": "Cari produk, merk, atau layanan...",
+      "recentSearch": "Riwayat Pencarian",
+      "popularCategory": "Kategori Populer",
+      "installPrompt": "Pasang XTRADE di layar utama untuk akses instan & offline!",
+      "installBtn": "Pasang Sekarang",
+      "dismissBtn": "Nanti",
+      "agreeBtn": "Saya Setuju & Lanjutkan",
+      "chatPlaceholder": "Ketik pesan untuk penjual...",
+      "faqTitle": "Pusat Bantuan & Pertanyaan",
+      "langTitle": "Pilih Bahasa Aplikasi",
+      "paymentTitle": "Pilih Pembayaran"
+    },
+    "en": {
+      "greeting": "Welcome back,",
+      "searchPlaceholder": "Search products, brands, or services...",
+      "recentSearch": "Recent Searches",
+      "popularCategory": "Popular Categories",
+      "installPrompt": "Install XTRADE to home screen for fast & offline access!",
+      "installBtn": "Install Now",
+      "dismissBtn": "Later",
+      "agreeBtn": "I Agree & Continue",
+      "chatPlaceholder": "Type your message here...",
+      "faqTitle": "Help Center & FAQs",
+      "langTitle": "Select App Language",
+      "paymentTitle": "Select Payment Method"
+    }
+  },
+  "banners": [
+    { "id": 1, "title": "Mega Diskon Elektronik 70%", "badge": "Spesial Hari Ini", "color": "linear-gradient(135deg, #4F46E5 0%, #06B6D4 100%)" },
+    { "id": 2, "title": "Cashback Akhir Pekan s.d 500rb", "badge": "Khusus PWA", "color": "linear-gradient(135deg, #EC4899 0%, #F59E0B 100%)" },
+    { "id": 3, "title": "Bebas Ongkir Seluruh Indonesia", "badge": "Gratis", "color": "linear-gradient(135deg, #10B981 0%, #047857 100%)" }
+  ],
+  "categories": [
+    { "id": "cat1", "name": "Gadget", "icon": "smartphone" },
+    { "id": "cat2", "name": "Fashion", "icon": "shirt" },
+    { "id": "cat3", "name": "Otomotif", "icon": "car" },
+    { "id": "cat4", "name": "Kesehatan", "icon": "heart-pulse" },
+    { "id": "cat5", "name": "Elektronik", "icon": "tv" },
+    { "id": "cat6", "name": "Makanan", "icon": "utensils" },
+    { "id": "cat7", "name": "Olahraga", "icon": "dumbbell" },
+    { "id": "cat8", "name": "Semua", "icon": "layout-grid" }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Wireless Noise Cancelling Headphones Gen-3",
+      "category": "Gadget",
+      "price": 1499000,
+      "originalPrice": 2199000,
+      "discount": "32%",
+      "rating": 4.9,
+      "sold": 1420,
+      "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><rect width='300' height='300' fill='%23EEF2FF'/><circle cx='150' cy='150' r='80' fill='%236366F1' opacity='0.2'/><path d='M100 160C100 120 120 90 150 90C180 90 200 120 200 160V190H170V160H190C190 130 175 105 150 105C125 105 110 130 110 160H130V190H100V160Z' fill='%234F46E5'/></svg>"
+    },
+    {
+      "id": 102,
+      "name": "Ultra-lightweight Running Shoes 420g",
+      "category": "Fashion",
+      "price": 649000,
+      "originalPrice": 899000,
+      "discount": "28%",
+      "rating": 4.8,
+      "sold": 890,
+      "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><rect width='300' height='300' fill='%23ECFDF5'/><circle cx='150' cy='150' r='80' fill='%2310B981' opacity='0.2'/><path d='M80 180L140 130L200 140L230 180H80Z' fill='%23059669'/></svg>"
+    },
+    {
+      "id": 103,
+      "name": "Smart 4K AMOLED HDR Sport Watch",
+      "category": "Gadget",
+      "price": 1850000,
+      "originalPrice": 2400000,
+      "discount": "23%",
+      "rating": 5.0,
+      "sold": 2100,
+      "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><rect width='300' height='300' fill='%23FFFBEB'/><circle cx='150' cy='150' r='60' fill='%23F59E0B' opacity='0.25'/><rect x='115' y='105' width='70' height='90' rx='20' fill='%23D97706'/></svg>"
+    },
+    {
+      "id": 104,
+      "name": "Minimalist Ergonomic Desk Chair",
+      "category": "Elektronik",
+      "price": 1250000,
+      "originalPrice": 1750000,
+      "discount": "29%",
+      "rating": 4.7,
+      "sold": 430,
+      "image": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'><rect width='300' height='300' fill='%23F5F3FF'/><rect x='120' y='110' width='60' height='80' rx='10' fill='%237C3AED'/></svg>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah aplikasi PWA ini dapat berjalan saat koneksi internet offline?",
+      "a": "Ya. Seluruh modul katalog, cache riwayat pencarian, dan antarmuka dirancang dengan Service Worker sehingga tetap dapat dibuka tanpa sambungan internet."
+    },
+    {
+      "q": "Bagaimana cara melakukan pembayaran instan?",
+      "a": "Kami mendukung integrasi otomatis Virtual Account (BCA, Mandiri, BRI), E-Wallet (GoPay, OVO, ShopeePay), dan Kartu Kredit dengan enkripsi aman."
+    },
+    {
+      "q": "Berapa lama estimasi pengiriman paket fisik?",
+      "a": "Pengiriman kilat regular memakan waktu 1-3 hari kerja untuk wilayah Jabodetabek dan 3-5 hari untuk luar pulau."
+    }
+  ],
+  "paymentMethods": [
+    { "id": "gopay", "group": "E-Wallet", "name": "GoPay Instant", "desc": "Bebas biaya admin", "badge": "POPULER" },
+    { "id": "ovo", "group": "E-Wallet", "name": "OVO Cash", "desc": "Verifikasi otomatis", "badge": "" },
+    { "id": "bca_va", "group": "Virtual Account", "name": "BCA Virtual Account", "desc": "Bayar via m-BCA / ATM", "badge": "OTOMATIS" },
+    { "id": "mandiri_va", "group": "Virtual Account", "name": "Mandiri VA", "desc": "Konfirmasi instan 24 jam", "badge": "" },
+    { "id": "credit_card", "group": "Kartu Kredit", "name": "Visa / MasterCard", "desc": "Mendukung cicilan 0%", "badge": "AMAN" }
+  ]
+}
